@@ -1,0 +1,42 @@
+.form-simple .font-small {
+	font-size: 0.8rem;
+	color: mediumblue;
+}
+.container {
+	width: 100%;
+	margin-top: 35px;
+}
+body {
+	/* background-image: linear-gradient(91.9deg, rgba(93, 248, 219, 1) 27.8%, rgba(33, 228, 246, 1) 67%); */
+	background-color: #ffffff;
+	background-image: linear-gradient(91.9deg, #ffffff 0%, #91a6ff 74%);
+}
+.form-simple .header {
+	border-top-left-radius: .3rem;
+	border-top-right-radius: .3rem;
+}
+
+.form-simple input[type=text]:focus:not([readonly]) {
+	border-bottom: 1px solid #ff3547;
+	-webkit-box-shadow: 0 1px 0 0 #ff3547;
+	box-shadow: 0 1px 0 0 #ff3547;
+}
+
+.form-simple input[type=text]:focus:not([readonly]) + label {
+	color: #4f4f4f;
+}
+
+.form-simple input[type=password]:focus:not([readonly]) {
+	border-bottom: 1px solid #ff3547;
+	-webkit-box-shadow: 0 1px 0 0 #ff3547;
+	box-shadow: 0 1px 0 0 #ff3547;
+}
+
+.form-simple input[type=password]:focus:not([readonly]) + label {
+	color: #4f4f4f;
+}
+
+.ice-cold-cool-gradient {
+	background: -webkit-linear-gradient(360deg, #e9fbcf 10%, #1d7d8e 360%);
+	background: linear-gradient(360deg, #e9fbcf 10%, #1d7d8e 360%);
+}
